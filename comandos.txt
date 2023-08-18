@@ -1,0 +1,21 @@
+git init
+git remote add origin https://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@github.com/aurapm/18-08-23-AuraPellejero.git
+touch "index.html" "main.js"
+git add .
+git commit -m "commit 01 de AuraPellejero"
+git push origin main
+ git checkout -b feature
+ mkdir "Hardware" "Software" "SeguridadInformatica"
+touch ./Hardware/resumen.txt
+touch ./Software/resumen.txt
+touch ./SeguridadInformatica/resumen.txt
+git add .
+git commit -m "commit 02 de AuraPellejero"
+git push origin feature
+git checkout main
+mv index.html resumenSoftware.txt
+mv main.js resumenHardware.txt
+touch comandos.txt
+git add .
+git commit -m "commit 03 de AuraPellejero"
+git push origin main
